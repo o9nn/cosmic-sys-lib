@@ -233,15 +233,19 @@ The System is based on Robert Campbell's work on the Cosmic Order, which describ
 
 **Self-Similarity**: The System exhibits fractal self-similarity, where the same patterns repeat at different scales of nesting.
 
+## Related Projects
+
+- **[cosysoc](https://github.com/o9nn/cosysoc)**: Documentation and Python implementation of Robert Campbell's Systems 1-5 framework with visualizations and mathematical formulations
+
 ## License
 
 This library is provided for educational and research purposes. The theoretical framework is based on Robert Campbell's published works.
 
 ## References
 
-Campbell, R. "Fisherman's Guide to the Cosmic Order"
-Campbell, R. "Science and Cosmic Order: A New Prospectus"
-Campbell, R. "The System" series of papers
-OEIS A000081: https://oeis.org/A000081
-OEIS A000055: https://oeis.org/A000055
-http://cosmic-mindreach.com
+1. Campbell, R. (1985). *Fisherman's Guide: A Systems Approach to Creativity and Organization*. New Science Library/Shambhala.
+2. Campbell, R. *Science and Cosmic Order: A New Prospectus*.
+3. Campbell, R. "The System" series of papers.
+4. OEIS A000081: Number of rooted trees. https://oeis.org/A000081
+5. OEIS A000055: Number of unrooted trees. https://oeis.org/A000055
+6. http://cosmic-mindreach.com
