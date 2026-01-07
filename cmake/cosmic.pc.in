@@ -1,0 +1,10 @@
+prefix=@CMAKE_INSTALL_PREFIX@
+exec_prefix=${prefix}
+libdir=${prefix}/@CMAKE_INSTALL_LIBDIR@
+includedir=${prefix}/@CMAKE_INSTALL_INCLUDEDIR@
+
+Name: cosmic
+Description: Cosmic System Library - Nested Enneagram System Hierarchy
+Version: @PROJECT_VERSION@
+Libs: -L${libdir} -lcosmic
+Cflags: -I${includedir}

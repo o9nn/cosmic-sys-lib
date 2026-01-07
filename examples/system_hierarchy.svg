@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="400.00" height="1200.00">
+<style>
+  .system { stroke: #333; fill: none; stroke-width: 1.5; }
+  .filled { fill: #ccc; }
+  .title { font-family: Arial, sans-serif; font-size: 14px; font-weight: bold; }
+  .desc { font-family: Arial, sans-serif; font-size: 10px; }
+</style>
+<rect width="100%" height="100%" fill="white"/>
+<text x="200.00" y="30" text-anchor="middle" class="title" style="font-size: 16px;">The Proliferation of the System</text>
+<g transform="translate(80.00,60.00)">
+  <line x1="-15" y1="0" x2="15" y2="0" class="system"/>
+  <line x1="0" y1="-15" x2="0" y2="15" class="system"/>
+</g>
+<text x="160.00" y="55.00" class="title">SYSTEM 1</text>
+<text x="160.00" y="70.00" class="desc">Active interface between subjective &amp; objective</text>
+<g transform="translate(80.00,172.00)">
+  <line x1="-10" y1="-15" x2="-10" y2="15" class="system"/>
+  <line x1="10" y1="-15" x2="10" y2="15" class="system"/>
+  <line x1="-15" y1="-5" x2="-5" y2="-5" class="system"/>
+  <line x1="5" y1="5" x2="15" y2="5" class="system"/>
+</g>
+<text x="160.00" y="167.00" class="title">SYSTEM 2</text>
+<text x="160.00" y="182.00" class="desc">Objective &amp; subjective modes</text>
+<g transform="translate(80.00,284.00)">
+  <polygon points="0,-18 -16,12 16,12" class="system"/>
+</g>
+<text x="160.00" y="279.00" class="title">SYSTEM 3</text>
+<text x="160.00" y="294.00" class="desc">The primary activity &amp; the cosmic movie</text>
+<g transform="translate(80.00,396.00)">
+  <circle cx="0" cy="0" r="20" class="system"/>
+  <polygon points="0,-18 -16,12 16,12" class="system"/>
+</g>
+<text x="160.00" y="391.00" class="title">SYSTEM 4</text>
+<text x="160.00" y="406.00" class="desc">The primary creative process &amp; the enneagram</text>
+<g transform="translate(80.00,508.00)">
+  <circle cx="-8" cy="0" r="18" class="system"/>
+  <polygon points="-8,-16 -22,10 6,10" class="system"/>
+  <circle cx="8" cy="0" r="18" class="system"/>
+  <polygon points="8,-16 -6,10 22,10" class="system filled"/>
+</g>
+<text x="160.00" y="503.00" class="title">SYSTEM 5</text>
+<text x="160.00" y="518.00" class="desc">Complementary objective &amp; subjective enneagrams</text>
+<g transform="translate(80.00,620.00)">
+  <polygon points="0,-25.00 -21.65,12.50 21.65,12.50" class="system"/>
+  <polygon points="0,-10.75 -16.24,17.38 16.24,17.38" class="system filled"/>
+</g>
+<text x="160.00" y="615.00" class="title">SYSTEM 6</text>
+<text x="160.00" y="630.00" class="desc">Primary activity of enneagrams</text>
+<g transform="translate(80.00,732.00)">
+  <polygon points="0,-25.00 -21.65,12.50 21.65,12.50" class="system"/>
+  <polygon points="0,-10.75 -16.24,17.38 16.24,17.38" class="system filled"/>
+  <polygon points="0,3.50 -10.82,22.25 10.82,22.25" class="system"/>
+</g>
+<text x="160.00" y="727.00" class="title">SYSTEM 7</text>
+<text x="160.00" y="742.00" class="desc">Enneagram of enneagrams</text>
+<g transform="translate(80.00,844.00)">
+  <polygon points="0,-25.00 -21.65,12.50 21.65,12.50" class="system"/>
+  <polygon points="0,-10.75 -16.24,17.38 16.24,17.38" class="system filled"/>
+  <polygon points="0,3.50 -10.82,22.25 10.82,22.25" class="system"/>
+  <polygon points="0,17.75 -5.41,27.12 5.41,27.12" class="system filled"/>
+</g>
+<text x="160.00" y="839.00" class="title">SYSTEM 8</text>
+<text x="160.00" y="854.00" class="desc">Objective and subjective enneagrams of enneagrams</text>
+<g transform="translate(80.00,956.00)">
+  <polygon points="0,-25.00 -21.65,12.50 21.65,12.50" class="system"/>
+  <polygon points="0,-10.75 -16.24,17.38 16.24,17.38" class="system filled"/>
+  <polygon points="0,3.50 -10.82,22.25 10.82,22.25" class="system"/>
+  <polygon points="0,17.75 -5.41,27.12 5.41,27.12" class="system filled"/>
+</g>
+<text x="160.00" y="951.00" class="title">SYSTEM 9</text>
+<text x="160.00" y="966.00" class="desc">A primary activity, each term an enneagram of enneagrams</text>
+<g transform="translate(80.00,1068.00)">
+  <polygon points="0,-25.00 -21.65,12.50 21.65,12.50" class="system"/>
+  <polygon points="0,-10.75 -16.24,17.38 16.24,17.38" class="system filled"/>
+  <polygon points="0,3.50 -10.82,22.25 10.82,22.25" class="system"/>
+  <polygon points="0,17.75 -5.41,27.12 5.41,27.12" class="system filled"/>
+</g>
+<text x="160.00" y="1063.00" class="title">SYSTEM 10</text>
+<text x="160.00" y="1078.00" class="desc">An enneagram, each term an enneagram of enneagrams</text>
+</svg>

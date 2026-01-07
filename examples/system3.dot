@@ -1,0 +1,10 @@
+digraph System3 {
+  label="System 3";
+  node [shape=ellipse];
+  "Galaxy - Idea";
+  "Sun - Routine";
+  "Planet - Form";
+  "Galaxy - Idea" -> "Sun - Routine";
+  "Sun - Routine" -> "Planet - Form";
+  "Planet - Form" -> "Galaxy - Idea";
+}

@@ -1,0 +1,22 @@
+digraph Enneagram {
+  label="Primary Enneagram";
+  node [shape=circle];
+  p1 [label="Term 1"];
+  p2 [label="Term 2"];
+  p3 [label="Idea"];
+  p4 [label="Term 4"];
+  p5 [label="Term 5"];
+  p6 [label="Routine"];
+  p7 [label="Term 7"];
+  p8 [label="Term 8"];
+  p9 [label="Form"];
+  p3 -> p6 [color=red];
+  p6 -> p9 [color=red];
+  p9 -> p3 [color=red];
+  p1 -> p4 [color=blue];
+  p4 -> p2 [color=blue];
+  p2 -> p8 [color=blue];
+  p8 -> p5 [color=blue];
+  p5 -> p7 [color=blue];
+  p7 -> p1 [color=blue];
+}
