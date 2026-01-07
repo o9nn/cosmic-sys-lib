@@ -42,6 +42,10 @@
 // Core system hierarchy
 #include "system.hpp"
 
+// Detailed System 1 and System 2 models
+#include "system1.hpp"
+#include "system2.hpp"
+
 // Complete system terms definitions
 #include "terms.hpp"
 

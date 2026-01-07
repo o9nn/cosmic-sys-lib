@@ -34,6 +34,8 @@ set(COSMIC_HEADERS
     include/cosmic/operations.hpp
     include/cosmic/terms.hpp
     include/cosmic/trees.hpp
+    include/cosmic/system1.hpp
+    include/cosmic/system2.hpp
 )
 
 # Create library
@@ -67,6 +69,9 @@ if(COSMIC_BUILD_EXAMPLES)
     
     add_executable(oeis_demo examples/oeis_demo.cpp)
     target_link_libraries(oeis_demo PRIVATE cosmic)
+    
+    add_executable(system1_system2_demo examples/system1_system2_demo.cpp)
+    target_link_libraries(system1_system2_demo PRIVATE cosmic)
 endif()
 
 # Tests

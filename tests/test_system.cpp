@@ -21,15 +21,11 @@ void test_system_creation() {
     }
     
     // Test invalid system level
-    bool threw = false;
-    try {
-        System sys(0);
-    } catch (const std::invalid_argument&) {
-        threw = true;
-    }
-    assert(threw);
+    // System 0 is now valid (The Void)
+    System sys0(0);
+    assert(sys0.level() == 0);
     
-    threw = false;
+    bool threw = false;
     try {
         System sys(11);
     } catch (const std::invalid_argument&) {
@@ -172,18 +168,21 @@ void test_term() {
 }
 
 void test_term_count() {
-    std::cout << "Testing term counts..." << std::endl;
+    std::cout << "Testing term counts (OEIS A000081)..." << std::endl;
     
-    assert(util::termCountForLevel(1) == 1);
-    assert(util::termCountForLevel(2) == 2);
-    assert(util::termCountForLevel(3) == 9);
-    assert(util::termCountForLevel(4) == 9);
-    assert(util::termCountForLevel(5) == 18);
-    assert(util::termCountForLevel(6) == 27);
-    assert(util::termCountForLevel(7) == 81);
-    assert(util::termCountForLevel(8) == 162);
-    assert(util::termCountForLevel(9) == 729);
-    assert(util::termCountForLevel(10) == 6561);
+    // Term counts follow OEIS A000081(n+1)
+    // System n has A000081(n+1) terms
+    assert(util::termCountForLevel(0) == 1);    // A000081(1) = 1
+    assert(util::termCountForLevel(1) == 1);    // A000081(2) = 1
+    assert(util::termCountForLevel(2) == 2);    // A000081(3) = 2
+    assert(util::termCountForLevel(3) == 4);    // A000081(4) = 4
+    assert(util::termCountForLevel(4) == 9);    // A000081(5) = 9
+    assert(util::termCountForLevel(5) == 20);   // A000081(6) = 20
+    assert(util::termCountForLevel(6) == 48);   // A000081(7) = 48
+    assert(util::termCountForLevel(7) == 115);  // A000081(8) = 115
+    assert(util::termCountForLevel(8) == 286);  // A000081(9) = 286
+    assert(util::termCountForLevel(9) == 719);  // A000081(10) = 719
+    assert(util::termCountForLevel(10) == 1842); // A000081(11) = 1842
     
     std::cout << "  PASSED" << std::endl;
 }
